@@ -9,6 +9,9 @@ if [ -z $IDF_BRANCH ]; then
 	IDF_BRANCH="release/v4.4"
 fi
 
+IDF_COMMIT="38eeba213a"
+AR_BRANCH="d75795f5"
+
 if [ -z $AR_PR_TARGET_BRANCH ]; then
 	AR_PR_TARGET_BRANCH="release/v2.x"
 fi
